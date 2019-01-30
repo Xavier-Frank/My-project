@@ -1,0 +1,172 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+header
+{
+background-image:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)), url(Lighthouse.jpg);
+background-size: cover;
+height: 110vh;
+background-position: center;
+}
+.menu-bar
+{
+    float: left;
+    list-style:none;
+    margin-top:40px;
+}
+.menu-bar li
+{
+    display: inline-block;
+}
+.menu-bar li a
+{
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "fantasy";
+    font-size: 15px;
+    font-weight: lighter;
+}
+.menu-bar li a:hover
+{
+   border:  1px solid whitesmoke;
+   background-color: black;
+   font-weight: bold;
+   border-radius: 10px;
+}
+.menu-bar li a:active
+{
+    border: 1px solid whitesmoke;
+}
+
+.active
+{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+/* .ul
+{
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 5px;
+    font-weight: lighter;
+    color: white;
+    margin-top:10px;
+
+
+}
+.ul li 
+{
+    text-decoration: none;
+}
+.ul li a:hover
+{
+    
+    font-weight: bolder;
+    border-radius: 10px;
+    border-color:red;
+
+}
+.ul li:hover ul
+{
+    display: list-item;
+} */
+/* .drop
+{
+    display: none;
+    position: inherit;
+} */
+/* .drop li
+{
+    text-decoration: none;
+    /* font-family: fantasy;
+    font-weight: bolder;
+    font-size: 15px; */
+/* } */
+/* .drop li a:hover .drop
+{
+    display: grid;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 15px;
+} */
+
+.school
+{
+    position: absolute;
+    width:1400px;
+    margin-top: 275px;
+    text-transform: uppercase;
+    color:yellow;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;   
+}
+.h1
+{
+    display: flex;
+}
+
+.p
+{
+    font-size: 16px;
+}
+
+.button
+{
+    position: absolute;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 410px;
+    width: 1350px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn
+{
+    color: orangered;
+    padding: 5px 20px;   
+}
+.button a:hover
+{
+
+    border:1px inset black;
+    border-radius: 10px;
+    border-width: thick;
+    background-color: yellow; 
+    font-weight: bolder;
+    /* border-right-style: dotted;
+    border-right-width: thin;
+    border-left-style: dotted;
+    border-left-width: thin; */
+}
+/* .btn-one
+{
+    /* border: 1px solid whitesmoke; */
+    /* background-color: yellow; */
+/* } */ */
+
+.logo
+{
+    position: absolute;
+    margin-left: 1050px;
+    margin-top:30px;
+
+
+}
+
+.logo a:hover
+{
+border:2px orange;
+}
+
+.audio
+{
+    position: absolute;
+    width: 1450px;
+    margin-top: 580px;
+    margin-left: 15px;
+}
